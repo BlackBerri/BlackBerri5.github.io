@@ -1,0 +1,178 @@
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../fonts/helveticaneue-thin-webfont.eot');
+  src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+       url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+       url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{		
+	background: url(../img/bg.jpg) center center  fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Helvetica Neue", Tahoma, sans-serif;
+    font-size: 14px;
+    }
+
+.blockmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/*HEADER*/
+header {
+  width: 100%;
+  height: 36px;
+  background: #074c89 url(../img/fon.png) repeat-x;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+ul {
+  float: left;
+}
+ul li {
+  float: left;
+  line-height: 36px;
+}
+nav {
+  margin-left: 38%;
+  min-width: 740px;
+}
+.menu > li > a {
+  color: #60b5ed;
+  text-decoration: none;
+  padding: 10.5px 14px;
+}
+
+.menu > li > a:hover, .menu > li > a:active {
+    color: #ffffff; 
+  background: #4eabda;
+}
+nav img {
+  float: left;
+}
+
+.menuline{
+  padding: 2px 8px;
+}
+.personal-offers img {
+  padding: 6px 10px 3px;
+  
+}
+.personal a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.personal-offers a {
+  text-decoration: none;
+  padding-right: 5px;
+}
+.personal-offers {
+  margin-right: 10px;
+}
+.personal-offers a:hover {
+  text-decoration: none;
+}
+.personal-login {
+  background: #3c8fce url(../img/login.png) no-repeat;
+  height: 36px;
+  width: 191px;
+  text-align: center;
+  }
+.personal-login a:hover {
+  text-decoration: underline;
+}
+/*MAIN*/
+main {
+  margin-bottom: 50%;
+  box-sizing: border-box;
+  width: 560px;
+  height: 613px;
+  margin: 214px auto;
+}
+.registration-title {
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.63);
+  font-size: 24px;
+  color: #ffffff;
+}
+.registration-block {
+  margin: 2px 0 0 0;
+  background: rgba(0, 0, 0, 0.63);
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+.registration-wrapper {
+  margin: 0 auto;
+  width: 276px;
+  box-sizing: border-box;
+  padding: 35px 0 0 0;
+}
+.registration-facebook a {
+  display: block;
+}
+.registration-facebook img {
+  display: block;
+  width: 276px;
+}
+.registration-block-form
+ {
+  color: #999999;
+  text-align: center;
+  margin: 29px 0;
+  background: url(../img/form.png) center center no-repeat;
+}
+fieldset input {
+  height: 36px;
+  line-height: 36px;
+  width: 276px;
+  box-sizing: border-box;
+  margin: 0 0 15px 0;
+  padding: 0 0 0 18px;
+  color: #cccccc;
+  background: #0f0f0f;
+  border: 0;
+  border-bottom: 1px solid #494948;
+}
+.inp input:hover, input:focus
+ {
+background-color: rgb(27,82,136); 
+box-shadow: 0px 0px 12px 0px rgba(108,158,208,1);
+}
+.updates {
+  margin: 3px 0 10px;
+  color: #cccccc;
+}
+input[type="submit"]
+ {
+  background-image: url(../img/button.png);
+  width: 149px;
+  height: 35px;
+  display: block;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.submit-button {
+  width: 150px;
+  margin: 25px auto 20px;
+}
+.servis{
+  width: 310px;
+  margin: 0 auto;
+  color: #cccccc;
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 20px;
+}
